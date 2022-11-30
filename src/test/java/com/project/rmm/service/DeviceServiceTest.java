@@ -66,4 +66,6 @@ public class DeviceServiceTest {
         deviceService.deleteDeviceEntity(ID);
         Mockito.verify(deviceRepository, times(1)).deleteById(ID);
     }
+
+    //TODO - Add tests for the remaining methods in both controller package and service package
 }
