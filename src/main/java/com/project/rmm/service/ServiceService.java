@@ -23,7 +23,7 @@ public class ServiceService {
 
         com.project.rmm.model.Service service = new com.project.rmm.model.Service();
         service.setSystem(serviceDto.getSystem());
-        service.setCost(service.getCost());
+        service.setCost(serviceDto.getCost());
         service.setDescription(serviceDto.getDescription());
 
         log.info("Saving service - " + service);
